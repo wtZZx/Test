@@ -18,4 +18,5 @@ public class PayServiceConstant {
     public static final Integer WXPAY = 2;//微信
     public static final Integer CMBPAY = 3;//一网通
 
+    public static final Integer FALL = 1;
 }
