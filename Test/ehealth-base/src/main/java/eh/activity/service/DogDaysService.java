@@ -2,7 +2,6 @@ package eh.activity.service;
 
 import ctd.util.BeanUtils;
 import ctd.util.JSONUtils;
-import eh.alipay.service.AliRefundService;
 import  org.apache.commons.lang3.StringUtils;
 import com.google.common.collect.Maps;
 import ctd.dictionary.DictionaryController;
@@ -32,7 +31,7 @@ public class DogDaysService {
 
     /**
      * 获取三伏天活动医生列表
-     * @param organ 机构id
+     * @param organId 机构id
      * @param start
      * @param limit
      * @return
